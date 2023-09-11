@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Crypto Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+<body>
+      
+   <header>
+       <nav>
+           <div class="container">
+               <div class="row">
+                   <div class="nav-brand">
+                       <img src="logo.svg" alt="">
+                   </div>
+                   <div class="nav-links">
+                       <ul>
+                           <li><a href="#">Home</a></li>
+                           <li><a href="#">About Us</a></li>
+                           <li><a href="#">Services</a></li>
+                           <li><a href="#">How to Buy</a></li>
+                           <li><a href="#">Contact Us</a></li>
+                       </ul>
+                   </div>
+               </div>
+           </div>
+       </nav>
+ 
+       <div class="banner-content">
+           <div class="container">
+               <div class="row">
+                   <div class="col">
+                       <h2>The Most Trusted Digital Currency <span>Bitcoins.</span></h2>
+                       <p>Digital currency is our expertise</p>
+                   </div>
+                   <div class="col"></div>
+               </div>
+           </div>
+       </div>
+ 
+       <div class="recent-blogs">
+           <div class="container">
+               <div class="row">
+                   <div class="col">
+                       <h6>BITCOIN | DOGECOIN | SHIB</h6>
+                       <h2>Bitcoin (BTC) Treads Water After Brief Visit to Sub-$39,000</h2>
+                       <p>Double The Pleasure, Double The Cryptocurrency</p>
+                       <a href="#">Read more</a>
+                   </div>
+                   <div class="col">
+                       <h6>SOLANA | BNB | NEWS</h6>
+                       <h2>Valve President Explains Why They Removed Bitcoin</h2>
+                       <p>Next To The Breast, Cryptocurrency’s The Best.</p>
+                       <a href="#">Read more</a>
+                   </div>
+                   <div class="col">
+                       <h6>BUY | SELL | HOLD</h6>
+                       <h2>After Losing $6000 in 3 Days, This is The Next Major Support</h2>
+                       <p>Good Honest Cryptocurrency Since 1896</p>
+                       <a href="#">Read more</a>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </header>
+
+
+<div class="content">
+    <!-- Slider main container -->
+    <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="content/slider (1).jpg"></div>
+      <div class="swiper-slide"><img src="content/slider (2).jpg"></div>
+      <div class="swiper-slide"><img src="content/slider (3).jpg"></div>
+      <div class="swiper-slide"><img src="content/slider (4).jpg"></div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div> 
+  </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+      const swiper = new Swiper('.swiper', {
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+  loop: true,
+
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});  
+
+    </script>
+
+<div class="footer-dark">
+    <footer>
+        <div class="container">
+            <div class="row"><div class="col-md-3 item">
+<h3>Services</h3>
+<ul>
+    <li><a href="#">Crypto Buy Sell</a></li>
+    <li><a href="#">Development</a></li>
+    <li><a href="#">my Account</a></li>
+</ul>
+</div><div class="col-md-3 item">
+<h3>About Us</h3>
+<ul>
+    <li><a href="#">> Home</a></li>
+    <li><a href="#">> Contact Us</a></li>
+    <li><a href="#">> Privacy Policy</a></li>
+</ul>
+</div><div class="col-md-3 item">
+<h3>Company Details</h3>
+<ul>
+    <li><a href="#">Company</a></li>
+    <li><a href="#">Team</a></li>
+    <li><a href="#">Careers</a></li>
+</ul>
+</div><div class="col-md-3 item text">
+<h3>WEB DESIGNED By SUJIT</h3>
+<p>Our website is a platform that allows users to buy and sell cryptocurrencies,</p>
+    <p>such as Bitcoin, Ethereum, and Litecoin.</p>
+</div>
+                <div class="col item social">
+                    <a href="www.facebook.com"><i class="fa fa-facebook"></i></a>
+                    <a href="www.twitter.com"><i class="fa fa-twitter"></i></a>
+                    <a href="www.youtube.com"><i class="fa fa-youtube"></i></a>
+                    <a href="www.instagram.com"><i class="fa fa-instagram"></i></a>
+                    <a href="www.google.com"><i class="fa fa-google"></i></a></div>
+                </div>
+            <p class="copyright"> Sujit Mahapatra &copy; 2023</p>
+        </div>
+    </footer>
+</div>     
+</body>
+</html>
